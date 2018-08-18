@@ -1,0 +1,57 @@
+.logo {
+ display: flex;
+ justify-content: flex-start;
+ align-content: flex-start;
+ margin-top: -250px;
+ margin-left: -20px; 
+ margin-bottom: 90px;
+
+ box-shadow: gray;
+ border-bottom: solid black;
+ border-right: solid black;
+}
+
+h2, h6 {
+	text-align: center;
+	margin-top: 50px;
+	color: black;
+}
+
+h6 {
+	color: gray;
+}
+
+.workimg {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid black;
+    border-fill: blue;
+    background-color: turquoise;
+}
+
+img {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 5px solid gray;
+	transition-duration: 1s;
+
+}
+
+img:hover {
+      transform: scale(1.1);
+}
+
+.find {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	margin-top:-75px;
+}
+
+#know {
+	margin-bottom:-75px;
+}
+

@@ -1,0 +1,14 @@
+body {
+	background-color: turquoise;
+	font-family: 'Oswald';
+}
+
+h1 {
+	font-family: 'Oswald';
+}
+
+#button1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
