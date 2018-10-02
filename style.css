@@ -1,0 +1,77 @@
+body {
+	background-image: url("pizza1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+a.navbar-brand{
+	font-size: 40px;
+	color: white;
+}
+
+div.head {
+	font-family: Notable;
+	color: white;
+	background-color: #330000;
+}
+
+
+div.main {
+	display: flex;
+	margin-top: 250px;
+	justify-content: center;
+	align-items: center;
+    
+}
+
+
+h4#info {
+	font-family: Notable;
+	color: white;
+	display: flex;
+	justify-content: center;
+	background-color: #330000;
+}
+
+div.buttons {
+	font-family: Notable;
+	margin-top: 45px;
+	margin-right: 50px;
+	margin-left: 50px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+button.btn:hover {
+	background-color: brown;
+}
+button.btn {
+	background-color: #330000;
+	color: white;
+}
+
+div.bottom {
+	margin-top: 300px;
+	margin-right: 20px;
+	background-color: #330000;
+	color: #330000;
+	margin-bottom: -200px;
+}
+
+div.bottomimg {
+	background-color: #330000;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+b {
+	color: white;
+
+}
+
+p.bottom {
+ margin-left: 15px
+}

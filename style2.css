@@ -1,0 +1,77 @@
+a.navbar-brand{
+	font-size: 40px;
+	color: white;
+}
+
+div.head {
+	font-family: Notable;
+	color: white;
+	background-color: #330000;
+}
+
+div#h1 {
+	font-family: Notable;
+	color: white;
+	background-color: #343a40;;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.media {
+	font-family: Oswald;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+h3.mt-0 {
+	font-family: Notable;
+}
+
+div.alignedpic {
+	margin: 50px;
+}
+
+div.adjectives {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	font: Notable;
+	background-color: #330000;
+}
+
+div.reviews {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	font-family: Notable;
+}
+
+div.reviewbuttons {
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	margin: 50px;
+	font-family: Notable;
+}
+
+div.reviewcomments {
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+	font-family: Notable;
+}
+div.reviewcomments2 {
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+	font-family: Notable;
+}
+
+div.bottomimg {
+	background-color: #330000;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
