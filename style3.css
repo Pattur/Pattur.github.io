@@ -68,6 +68,7 @@ p.slides {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 40px;
 }
 
 
@@ -88,6 +89,18 @@ span:hover {
 img.pctr {
 	background-color: #d8d8d8
 	border-radius: 20px;
+}
+
+
+
+img.steps:hover {
+	filter: opacity(1);
+}
+
+
+.easy {
+	display: flex;
+	justify-content: center;
 }
 
 .contact {
