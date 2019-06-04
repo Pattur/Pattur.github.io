@@ -73,7 +73,7 @@ p.slides {
 
 
 
-img:hover {
+img.pctr:hover {
 	filter: opacity(0.4);
 }
 
@@ -91,11 +91,6 @@ img.pctr {
 	border-radius: 20px;
 }
 
-
-
-img.steps:hover {
-	filter: opacity(1);
-}
 
 
 .easy {
