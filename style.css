@@ -1,0 +1,70 @@
+html, body {
+	min-height: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.hat {
+	position: fixed;
+	width: 100%;
+	top: 0%;
+}
+
+.main {
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	font-family: Poppins;
+	font-weight: bolder;
+	font-size: 50px;
+	z-index: 1;
+	filter: invert(0);
+	animation-duration: 5s;
+	animation-name: colorinvert;
+}
+
+@keyframes colorinvert {
+  from {filter: invert(110);}
+  to {filter: invert(0);}
+}
+
+img.menu {
+	filter: invert(100);
+	display: flex;
+
+}
+
+img.menu:hover {
+	opacity: 0.4;
+}
+
+img.menu2 {
+	filter: invert(100);
+	display: none;
+}
+
+img.menu2:hover {
+	opacity: 0.4;
+}
+
+.fullMenu {
+	display: none;
+	z-index: 10;
+	background-color: white;
+	border-radius: 20px;
+	position: absolute;
+	margin-left: 10px;
+	padding-right: 10px;
+
+}
+
+p {
+	color: black;
+}
+
+.contact {
+	height: 100%;
+	background-color: black;
+}
+
+
