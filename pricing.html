@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="image/gif" href="p.png" />
+	<title>Pattur</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="style4.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+<div class="hat">
+<img class="menu" id="menu" src="hamburger.png" height="70" width="70">
+<img class="menu2" id="menu2" src="hamburger.png" height="70" width="70">
+	<div id="fullMenu" class="fullMenu">
+		<a href="index.html"><p>Home</p></a>
+		<a href="gallery.html"><p>About</p></a>
+		<a href="services.html"><p>Services</p></a>
+		<a href="pricing.html"><p>Pricing</p></a>
+	</div>
+</div>
+
+<div class="Header animated fadeIn slower" style="margin-top: 50px;">
+
+<div id="typed-strings">
+</div>
+<p class="subtitle">The Zeros at the end are just that. Zeros.</p>
+</div> 
+
+<div class="choose">
+<div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-secondary" id="templates" data-toggle="collapse" data-target="#templates1" aria-expanded="false" aria-controls="templates1" disabled onclick="switcher2()">Templates</button>
+  <button id="custom" type="button" class="btn btn-secondary" data-toggle="collapse" data-target="#templates1" aria-expanded="false" aria-controls="templates1" onclick="switcher()">Custom</button>
+</div>
+</div>
+
+<div id="templates1" class="collapse show">
+<div class="templates" style="border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;">
+	<p class="subtitle">We're still working out the kinks with our templates system. Expect a full release soon.</p>
+</div>
+<div class="row templates" style="margin-left: 5%; display: flex; justify-content: center; border-radius: 0px;">
+	<p style="color: black; font-size: 80px;">December 19th, 2019*</p>
+</div>
+<div class="row templates" style="margin-left: 5%; display: flex; justify-content: center; border-radius: 0px;">
+	<p class="subtitle">*tentative release date</p>
+</div>
+
+<div class="row templates" style="margin-left: 5%; display: flex; justify-content: center; border-radius: 0px;">
+	<p class="subtitle">Want updates? Sign up below!</p>
+</div>
+<div class="row templates" style="margin-left: 5%; display: flex; justify-content: center; border-top-left-radius: 0px; border-top-right-radius: 0px; margin-bottom: 20px;">
+	<button style="font-family: poppins; margin-bottom: 20px;" type="button" class="btn btn-primary subtitle">Update me!</button>
+</div>
+</div>
+
+<div id="templates1" class="collapse">
+<div class="templates" style="border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;">
+	<p style="color: black;">Affordable Web solutions.</p>
+</div>
+<div class="row templates" style="margin-left: 5%; display: flex; justify-content: center; border-radius: 0px;">
+	<p class="subtitle">Websites don't need to cost 5 figures to be great. With Pattur, custom projects start at just $100.</p>
+</div>
+<div class="row templates" style="margin-left: 5%; display: flex; justify-content: center;  border-top-left-radius: 0px; border-top-right-radius: 0px; margin-bottom: 20px;">
+<div class="card" style="width: 18rem; margin-bottom: 20px; border-radius: 20px; margin-left: 10px; margin-right: 10px;">
+  <div class="card-body">
+    <p style="background-color: black; border-radius: 10px;">$50</p>
+    <p class="subtitle">The base price of $50 covers the cost of a website with 3 pages. These could include a Home page, About page, etc.</p>
+    <a href="#" class="btn btn-primary" style="font-family: poppins;">Get your quote</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem; margin-bottom: 20px; border-radius: 20px; margin-left: 10px; margin-right: 10px;">
+  <div class="card-body">
+    <p style="background-color: black; border-radius: 10px;">$25</p>
+    <p class="subtitle">Want additional webpages? Every page after the initial 4 will cost $25. Larger scale projects may warrant different prices.</p>
+    <a href="#" class="btn btn-primary" style="font-family: poppins;">Get your quote</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem; margin-bottom: 20px; border-radius: 20px; margin-left: 10px; margin-right: 10px;">
+  <div class="card-body">
+    <p style="background-color: black; border-radius: 10px;">$30</p>
+    <p class="subtitle">For an additional $30, we'll give your site a monthly checkup. This includes debugging, maintaining, and updating your site.</p>
+    <a href="#" class="btn btn-primary" style="font-family: poppins;">Get your quote</a>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="contact container-fluid" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="-200">
+	<div class="row">
+		<div class="col">
+		<p>Email:</p>
+		<p>PranPranInd @gmail.com</p>
+		</div>
+		<div class="col">
+		<p>Phone:</p>
+		<p>(669)212-0075</p>
+		</div>
+	</div>
+</div>
+<div class="test" style="display: flex; justify-content: flex-start;">
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  var typed = new Typed('#typed-strings', {
+    strings: ["$1", "$500000", "$50000", "$5000", "$500", "$50"],
+    backDelay: 1000,
+    showCursor: false
+    
+
+  });
+</script>
+<script>
+  AOS.init();
+</script>
+<script>
+	function switcher() {
+		var templates=document.getElementById('templates');
+		var custom=document.getElementById('custom');
+		templates.removeAttribute('disabled');
+		custom.setAttribute('disabled');
+
+	}
+	function switcher2() {
+		var templates=document.getElementById('templates');
+		var custom=document.getElementById('custom')
+		templates.setAttribute('disabled')
+		custom.removeAttribute('disabled');
+
+	}
+</script>
+<script src="menutoggle.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
