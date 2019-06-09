@@ -61,10 +61,12 @@ p#title {
 	font-size: 70px;
 	margin-top: 70px;
 	color: black;
+	text-align: center;
 }
 p#subtitle {
 	font-size: 20px;
 	color: black;
+	text-align: center;
 }
 
 .gallery1 {
@@ -100,11 +102,13 @@ img:hover {
 p#title2 {
 	justify-content: flex-start;
 	color: black;
+	text-align: center;
 }
 
 p#subtitle1 {
 	font-size: 25px;
 	color: black;
+	text-align: center;
 }
 
 .container1 {
