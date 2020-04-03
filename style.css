@@ -138,6 +138,11 @@ Animating one layer of the background which is a tilted linear gradient with whi
     transform: translateY(-1rem);
 }
 
+.col-4 a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 a.btn-lg {
     cursor: not-allowed;
 }
