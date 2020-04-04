@@ -143,7 +143,7 @@ Animating one layer of the background which is a tilted linear gradient with whi
     text-decoration: underline;
 }
 
-.col-8 a:hover {
+.col-7 a:hover {
     cursor: pointer;
     text-decoration: underline;
 }
